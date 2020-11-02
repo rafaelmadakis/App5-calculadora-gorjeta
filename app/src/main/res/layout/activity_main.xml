@@ -39,12 +39,12 @@
         android:layout_marginEnd="5dp"
         android:layout_marginRight="5dp"
         android:text="0%"
-        app:layout_constraintBottom_toBottomOf="@+id/seekBarGorjeta"
-        app:layout_constraintEnd_toStartOf="@+id/seekBarGorjeta"
+        app:layout_constraintBottom_toBottomOf="@+id/seekGorjeta"
+        app:layout_constraintEnd_toStartOf="@+id/seekGorjeta"
         app:layout_constraintStart_toStartOf="parent" />
 
     <SeekBar
-        android:id="@+id/seekBarGorjeta"
+        android:id="@+id/seekGorjeta"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -67,7 +67,7 @@
         android:text="Gorjeta"
         app:layout_constraintEnd_toStartOf="@+id/textGorjeta"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBarGorjeta" />
+        app:layout_constraintTop_toBottomOf="@+id/seekGorjeta" />
 
     <TextView
         android:id="@+id/textGorjeta"
